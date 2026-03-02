@@ -21,6 +21,25 @@ python3 -m http.server 4173
 - `http://localhost:4173`
 - `http://127.0.0.1:4173`
 
+## ¿Cómo descargo los archivos?
+
+### Opción 1: Descargar ZIP desde GitHub (fácil)
+1. Entra al repositorio en GitHub.
+2. Haz clic en el botón verde **Code**.
+3. Selecciona **Download ZIP**.
+4. Descomprime el ZIP en tu computadora.
+
+### Opción 2: Clonar con Git
+Si tienes Git instalado, usa:
+
+```bash
+git clone <URL_DEL_REPO>
+cd <NOMBRE_DEL_REPO>
+```
+
+### Opción 3: Descargar archivo por archivo
+También puedes abrir cada archivo (`index.html`, `styles.css`, `script.js`, `README.md`, `CNAME`) en GitHub y usar **Raw** + guardar.
+
 ## Publicar en GitHub (página pública)
 1. Crea un repositorio nuevo en GitHub.
 2. Conecta este proyecto al remoto y sube cambios:
